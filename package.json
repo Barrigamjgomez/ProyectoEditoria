@@ -1,0 +1,14 @@
+{
+  "name": "proyectoeditoria",
+  "version": "1.0.0",
+  "description": "editoria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mariajose barriga",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
