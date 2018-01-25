@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name = "viewport" content="width=device-width">
 	<meta charset="UTF-8">
 	<title>Libreria-Editoria</title>
 	<link rel="stylesheet" type="text/css" href="essets/css/main.css">
@@ -11,33 +12,45 @@
 			<h1 class="titulo">Libreria-Editoria</h1>
 		</div>
 	</div>
-
+<!-- Inicio Dropdown -->
 	<section class="form-row align-items-center contenedor-section">
 		<div class="col-md-12 col-auto my-1">
 			<label class="mr-sm-2" for="inlineFormCustomSelect">Tamaños</label>
-			<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-   			 	<option selected>Choose...</option>
-   			 	<option value="small">small</option>
-   			 	<option value="medium">Medium</option>
-    		 	<option value="large">Large</option>
+			<select class="custom-select mr-sm-2" id="categoias">
+   			 	<option selected>Select option</option>
+   			 	<option id=" option-small" value="small">Small</option>
+   			 	<option id=" option-medium" value="medium">Medium</option>
+    		 	<option id=" option-large" value="large">Large</option>
 	 		</select>
 		</div>
 		<div id="medidas">
-		  <div id="Small">
-
-		  </div>
-		  <div id="Mediun">
-		  </div>
-		  <div id="Large">
-		  </div>
+			<!-- div vacío para mostrar imágenes pequeñas con jquery -->
+		  <div id="small"></div>
+			<!-- div vacío para mostrar imágenes medianas con jquery  -->
+		  <div id="mediun"></div>
+			<!-- div vacío para mostrar imágenes grandes con jquery  -->
+		  <div id="large"></div>
 		</div>
-
-
 	</section>
-	
-		
-	</div>
+<!-- Fin Dropdown -->
 
+<!-- contenedor imagenes -->
+<div id="cont"></div>
+
+
+<!-- INICIO REDIMENDION IMAGEN -->
+<div id="div" style="border:1px solid #000000">
+<img id="img1" src="essets/images/small/beach2.jpg" style="width:100%"alt="">
+</div>
+<br>
+<input type="button" onClick="tamano();" value="Cambiar el tamaño a 400px">
+<!-- FIN REDIMENSION IMAGEN -->
+
+	</div>
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="index.js"></script>
+	<script src="essets/js/app.js"></script>
 </body>
 </html>
