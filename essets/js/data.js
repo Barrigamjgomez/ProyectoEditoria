@@ -1,15 +1,14 @@
-var data = {
-  'small' : {
-    'characters' : [
+var data = [
       {
-        'picture' : 'essets/images/small/trees.jpg'
+        'size' : 'small',
+        'picture' : 'essets/images/image1.jpg'
       },
       {
-        'picture' : 'essets/images/small/mountains.jpg'
+        'size' : 'small',
+        'picture' : 'essets/images/image2.jpg'
       },
       {
-        'picture' : 'essets/images/small/beach.jpg'
-      },
+        'size' : 'small',
+        'picture' : 'essets/images/image3.jpg'
+      }
     ]
-  }
-};
