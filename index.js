@@ -19,9 +19,9 @@ var ollas = $('#ollas');
 
   if (selection === 'accesorios') {
 	  for(var i = 0; i < data.length; i++) {
-	   	if(data[i].nombre === 'accesorio') {
-	      
-	      accesorio.append('<div class="row">' +
+		if(data[i].nombre === 'accesorio') {
+		  
+		  accesorio.append('<div class="row">' +
 													'<div class="col-md-12">' +
 														'<img src=" ' + data[i].foto + ' ">'+
 														'<p>'+ data[i].nombre + '</p>'+
@@ -29,7 +29,7 @@ var ollas = $('#ollas');
 														'<p>'+ data[i].marca + '</p>'+
 													'</div>'+
 												'</div>');
-	  	}
+		}
 	  }
   };
 });
@@ -37,9 +37,9 @@ var ollas = $('#ollas');
 
   if (selection === 'cuchillo') {
 	  for (var i = 0; i < data.length; i++) {
-	   	if (data[i].nombre === 'cuchillo') {
-	      
-	      cuchillo.append('<div class="row">' +
+		if (data[i].nombre === 'cuchillo') {
+		  
+		  cuchillo.append('<div class="row">' +
 													'<div class="col-md-12">' +
 														'<img src=" ' + data[i].foto + ' ">'+
 														'<p>'+ data[i].nombre + '</p>'+
@@ -47,8 +47,8 @@ var ollas = $('#ollas');
 														'<p>'+ data[i].marca + '</p>'+
 													'</div>'+
 												'</div>'
-     									 )
-	  	}
+										 )
+		}
 	  }
   }
 
