@@ -9,6 +9,7 @@
   "author": "mariajose barriga",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.0.0"
+    "bootstrap": "^4.0.0",
+    "jQuery": "^1.7.4"
   }
 }
