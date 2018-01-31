@@ -1,100 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name = "viewport" content="width=device-width">
 	<meta charset="UTF-8">
-	<title>Libreria-Editoria</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"></head>
-
+	<title>DEMO LIBRERIA</title>
+ 
+</head>
 <body>
-	<div class="row">
-		<div class="col-md-12 contenedor-header">
+	<div id="container" class="row"><!--contenedor de imagenes-->
+		<div class="col-md-12">
 			<h1 class="titulo">Libreria-Editoria</h1>
 		</div>
-	</div>
-<!-- Inicio Dropdown -->
-	<section class="form-row align-items-center contenedor-section">
-		<div class="col-md-12 col-auto my-1">
+		<div class="row">
+			<div class="col-md-8">
+				<label class="mr-sm-2" for="inlineFormCustomSelect">Tamaños</label>
+					<select class="custom-select mr-sm-2" id="categorias">
+		   			 	<option selected>Select option</option>
 
-			<label class="mr-sm-2" for="inlineFormCustomSelect"></label>
-			<select class="custom-select mr-sm-2" id="categorias">
-   			<option selected>Choose...</option>
-   			<option value="accesorios">accesorios</option>
-   			<option value="cuchillo">cuchillo</option>
-    		<option value="hornos">hornos</option>
-    		<option value="ollas">ollas</option>
-    	</select>
-    </div>		 	
-	
-		<div id="accesorios">
-			
-			
-		</div> 
-		<div id="cuchillo">
-			
-		</div>  
-		<div id="hornos">
-			
-		</div>  
-		<div id="ollas">
-			
-		</div>   
+		   			 	<option id="option-small" value="small">Small</option><!--id llama a js-->
 
-	</section><!--section-contenedor-->
+		   			 	<option id="option-medium" value="medium">Medium</option>
+
+		    		 	<option id="option-large" value="large">Large</option>
+			 		</select>
+			</div>
+		</div>
+ 	</div><!--container-->
+
+	 	<div>
+	 		 <img class="small"  src="assest/img/image1.jpg" alt=""> <!--la class llama a value-->
+	 	</div>
+	 	<div>
+	 		 <img class="mediun" src="assest/img/image1.jpg" alt="">
+	 	</div>
+	 	<div>
+	 		 <img class="large" src="assest/img/image1.jpg" alt="">
+	 	</div>
+	 
+
+	   
 	
-		
-	
+	    
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="assets/js/data.js"></script>
-	<script src="index.js"></script>
-	
-
-			<label class="mr-sm-2" for="inlineFormCustomSelect">Tamaños</label>
-			<select class="custom-select mr-sm-2" id="categorias">
-   			 	<option selected>Select option</option>
-   			 	<option id=" option-small" value="small">Small</option>
-   			 	<option id=" option-medium" value="medium">Medium</option>
-    		 	<option id=" option-large" value="large">Large</option>
-	 		</select>
-		</div>
-		<div id="medidas">
-			<!-- div vacío para mostrar imágenes pequeñas con jquery -->
-		  <div id="small"></div>
-			<!-- div vacío para mostrar imágenes medianas con jquery  -->
-		  <div id="mediun"></div>
-			<!-- div vacío para mostrar imágenes grandes con jquery  -->
-		  <div id="large"></div>
-		</div>
-	</section>
-<!-- Fin Dropdown -->
-
-<!-- contenedor imagenes -->
-<div id="cont"></div>
-
-
-<!-- INICIO REDIMENDION IMAGEN -->
-<div id="div" style="border:1px solid #000000">
-<img id="img1" src="essets/images/small/beach.jpg" style="width:100%" alt="">
-</div>
-<br>
-<input type="button" onClick="tamano();" value="Cambiar el tamaño a 400px">
-
-<div id="div2" style="border:1px solid #000000">
-<img id="img2" src="essets/images/small/beach2.jpg" style="width:100%" alt="">
-</div>
-<br>
-<input type="button" onClick="tamano2();" value="Cambiar el tamaño a 200px">
-<!-- FIN REDIMENSION IMAGEN -->
-
-	</div>
-	<!-- Scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="assets/js/data.js"></script>
-	<script src="assets/js/app.js"></script>
-
+	<script src="assest/js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+	background-color:#247065; 
+}
+.contenedor-header{
+	background-color: #FFEC97;	
+	height: 20vh;
+}
+.titulo{
+	font-size: 10vh;
+	color:#247065;
+	text-align: center;
+	margin-top: 0%;
+	padding-top: 2%;
+
+}
+.contenedor-section{
+	padding: 5%;
+}
+option{
+	color: 
+}
+label{
+	color:#FFEC97; 
+}
