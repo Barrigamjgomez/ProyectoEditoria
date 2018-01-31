@@ -9,54 +9,33 @@
 <body>
 	<div class="row">
 		<div class="col-md-12 contenedor-header">
-			<h1 class="titulo">Libreria-Editoria</h1>
+		<p id="demo">DEMO</p>
+		<h1 class="titulo">Libreria-Editoria</h1>
 		</div>
 	</div>
-<!-- Inicio Dropdown -->
-	<section class="form-row align-items-center contenedor-section">
-		<div class="col-md-12 col-auto my-1">
-			<label class="mr-sm-2" for="inlineFormCustomSelect">Tamaños</label>
-			<select class="categorias custom-select mr-sm-2">
-   			 	<option selected>Select option</option>
-   			 	<option id=" option-small" value="small">Small</option>
-   			 	<option id=" option-medium" value="medium">Medium</option>
-    		 	<option id=" option-large" value="large">Large</option>
-	 		</select>
-		</div>
-		<div id="medidas">
-			<!-- div vacío para mostrar imágenes pequeñas con jquery -->
-		  <div class="small" style="width:100%" alt="">
+
+<!-- INICIO REDIMENDION IMAGEN -->
+<div class="buttons">
+	<div class="row">
+		<input type="button" onClick="tamano();" value="Cambiar el tamaño a 400px">
+		<input type="button" onClick="tamano2();" value="Cambiar el tamaño a 200px">
+		<input type="button" onClick="tamano3();" value="Cambiar el tamaño a 100px">
+	</div>
+</div>
 
 
-		  </div>
-			<!-- div vacío para mostrar imágenes medianas con jquery  -->
-		  <div id="mediun"></div>
-			<!-- div vacío para mostrar imágenes grandes con jquery  -->
-		  <div id="large"></div>
-		</div>
-	</section>
-<!-- Fin Dropdown -->
-
-
-
-
-<!-- INICIO REDIMENSIION IMAGEN -->
-<div id="div" style="border:1px solid #000000">
-<img id="img1" src="essets/images/small/beach.jpg" style="width:100%" alt="">
+<div id="img-contenedor" style="border:1px solid #000000">
+	<!-- Acá van tus imágenes -->
+	<img id="img1" src="essets/images/small/beach2.jpg" style="width:100%" alt="">
+	<img id="img2" src="essets/images/small/beach2.jpg" style="width:100%" alt="">
+	<img id="img3" src="essets/images/small/beach2.jpg" style="width:100%" alt="">
 </div>
 <br>
-<input type="button" onClick="tamano();" value="Cambiar el tamaño a 400px">
-
-<!-- <div id="div2" style="border:1px solid #000000">
-<img id="img2" src="essets/images/small/beach2.jpg" style="width:100%" alt="">
-</div>
-<br>
-<input type="button" onClick="tamano2();" value="Cambiar el tamaño a 200px"> -->
 <!-- FIN REDIMENSION IMAGEN -->
-
-	</div>
 	<!-- Scripts -->
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 	<script src="essets/js/data.js"></script>
 	<script src="essets/js/app.js"></script>
 </body>
