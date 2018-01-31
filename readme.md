@@ -1,13 +1,12 @@
-# PROYECTO EDITORIA 
-### Editoria es una libreria que ofrece un filtro de imagenes 
-### que se necesite mostrar
+# PROYECTO EDITORIA
+### Editoria es una librería que ofrece opción de filtrar imágenes
+
 
 
 ## El Reto
 
-## Metodologia de trabajo
+## Metodología de trabajo
 
 ## Requerimientos técnicos
 
 ## Levantamiento ambiente de desarrollo
-

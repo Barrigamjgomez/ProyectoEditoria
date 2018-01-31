@@ -16,7 +16,7 @@
 	<section class="form-row align-items-center contenedor-section">
 		<div class="col-md-12 col-auto my-1">
 			<label class="mr-sm-2" for="inlineFormCustomSelect">Tamaños</label>
-			<select class="custom-select mr-sm-2" id="categorias">
+			<select class="categorias custom-select mr-sm-2">
    			 	<option selected>Select option</option>
    			 	<option id=" option-small" value="small">Small</option>
    			 	<option id=" option-medium" value="medium">Medium</option>
@@ -25,7 +25,10 @@
 		</div>
 		<div id="medidas">
 			<!-- div vacío para mostrar imágenes pequeñas con jquery -->
-		  <div id="small"></div>
+		  <div class="small" style="width:100%" alt="">
+
+
+		  </div>
 			<!-- div vacío para mostrar imágenes medianas con jquery  -->
 		  <div id="mediun"></div>
 			<!-- div vacío para mostrar imágenes grandes con jquery  -->
@@ -34,22 +37,21 @@
 	</section>
 <!-- Fin Dropdown -->
 
-<!-- contenedor imagenes -->
-<div id="cont"></div>
 
 
-<!-- INICIO REDIMENDION IMAGEN -->
+
+<!-- INICIO REDIMENSIION IMAGEN -->
 <div id="div" style="border:1px solid #000000">
 <img id="img1" src="essets/images/small/beach.jpg" style="width:100%" alt="">
 </div>
 <br>
 <input type="button" onClick="tamano();" value="Cambiar el tamaño a 400px">
 
-<div id="div2" style="border:1px solid #000000">
+<!-- <div id="div2" style="border:1px solid #000000">
 <img id="img2" src="essets/images/small/beach2.jpg" style="width:100%" alt="">
 </div>
 <br>
-<input type="button" onClick="tamano2();" value="Cambiar el tamaño a 200px">
+<input type="button" onClick="tamano2();" value="Cambiar el tamaño a 200px"> -->
 <!-- FIN REDIMENSION IMAGEN -->
 
 	</div>
