@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <title>Libreria-Editoria</title>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
- <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"></head>
+ <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+ <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
 <body>
     <div class="row">
         <div class="col-md-12 contenedor-header">
@@ -17,20 +19,27 @@
 <!-- INICIO REDIMENDION IMAGEN -->
 <div class="buttons">
     <div class="row">
-        <input type = "button" id="button" value="Cambiar el tamaño a 400px">
+        <div class="btn-group" role="group" aria-label="Basic example">
         <input type = "button" id="button1" value="Cambiar el tamaño a 200px">
         <input type = "button" id="button2" value="Cambiar el tamaño a 100px">
     </div>
 </div>
 
 
-<div id="img-contenedor" style="border:1px solid #000000">
+<div id="img-contenedor " class="row">
+    <div class="col-md-4">
     <!-- Acá van tus imágenes -->
     <img id="img1" src="assets/images/image1.jpg" style="width:100%" alt="">
+    </div>
+    <div class="col-md-4">
     <img id="img2" src="assets/images/image2.jpg" style="width:100%" alt="">
+    <div class="col-md-4">
     <img id="img3" src="assets/images/image3.jpg" style="width:100%" alt="">
+    <div class="col-md-4">
 </div>
 <br>
+
+<div class="btn-group" role="group" aria-label="Basic example">
 <!-- FIN REDIMENSION IMAGEN -->
     <!-- Scripts -->
 
