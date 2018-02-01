@@ -12,13 +12,17 @@ document.getElementById("button2").addEventListener("click", function(){
 // INICIO REDIMENSION IMAGEN
 function tamano(){
 document.getElementById("img-contenedor")
-.style.width="100%";
+.style.width="80%";
 }
+
 function tamano2(){
 document.getElementById("img-contenedor")
 .style.width="70%";
 }
+
 function tamano3(){
 document.getElementById("img-contenedor")
-.style.width="30%";
+.style.width="100%";
 }
+// FIN REDIMENSION IMAGEN
+//-------------------------------------

@@ -26,13 +26,6 @@ body {
 }
 #buttons {
 	text-align: center;
-	margin: 0 auto;
-}
-.btn-secondary {
-  color: #CDE9F4;
-	background-color: none;
-  background-color: #0163A1;
-	border: none;
 }
 #img-contenedor {
 	padding: 1em;
@@ -40,7 +33,7 @@ body {
 	width: auto;
 	margin: 0 auto;
 }
-#galery-row-2 {
+.contenedor2 {
 	padding-top: 1em;
 }
 #buttons {
