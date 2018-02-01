@@ -1,30 +1,35 @@
-$(document).ready(function(){
-	small();
+
+//Para mostrar las imagenes en la consola
+document.getElementById("button").addEventListener("click", function(){
+	tamano();
+});
+document.getElementById("button1").addEventListener("click", function(){
+	tamano2();
+});
+document.getElementById("button2").addEventListener("click", function(){
+	tamano3();
+});
+
+// INICIO REDIMENSION IMAGEN
+function tamano(){
+document.getElementById("img-contenedor")
+.style.height="400px";
+document.getElementById("img-contenedor")
+.style.width="400px";
 }
 
-function small (){
- $('#categorias').on("change",function(){
-		$('#img').css({
-			'width' : '200%'
-		})
-	})
+function tamano2(){
+document.getElementById("img-contenedor")
+.style.height="200px";
+document.getElementById("img-contenedor")
+.style.width="200px";
 }
 
-function Medium (){
- $('#option-medium').click(function(){
-			$('#img').css({
-			'width' : '400%'
-		})
-	})
+function tamano3(){
+document.getElementById("img-contenedor")
+.style.height="100px";
+document.getElementById("img-contenedor")
+.style.width="100px";
 }
-
-function Large (){
- $('#option-large').click(function(){
-			$('#img').css({
-			'width' : '600%'
-		})
-
-	})
-}
-
-
+// FIN REDIMENSION IMAGEN
+//-------------------------------------

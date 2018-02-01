@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>DEMO LIBRERIA</title>
- 
-</head>
+    <meta name = "viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <title>Libreria-Editoria</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+ <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"></head>
 <body>
-	<div id="container" class="row"><!--contenedor de imagenes-->
-		<div class="col-md-12">
-			<h1 class="titulo">Libreria-Editoria</h1>
-		</div>
-		<div class="row">
-			<div class="col-md-8">
-				<label class="mr-sm-2" for="inlineFormCustomSelect">Tamaños</label>
-					<select class="custom-select mr-sm-2" id="categorias">
-		   			 	<option selected>Select option</option>
+    <div class="row">
+        <div class="col-md-12 contenedor-header">
+        <p id="demo">DEMO</p>
+        <h1 class="titulo">Libreria-Editoria</h1>
+        </div>
+    </div>
 
-		   			 	<option id="option-small" value="small">Small</option><!--id llama a js-->
+<!-- INICIO REDIMENDION IMAGEN -->
+<div class="buttons">
+    <div class="row">
+        <input type = "button" id="button" value="Cambiar el tamaño a 400px">
+        <input type = "button" id="button1" value="Cambiar el tamaño a 200px">
+        <input type = "button" id="button2" value="Cambiar el tamaño a 100px">
+    </div>
+</div>
 
-		   			 	<option id="option-medium" value="medium">Medium</option>
 
-		    		 	<option id="option-large" value="large">Large</option>
-			 		</select>
-			</div>
-		</div>
- 	</div><!--container-->
+<div id="img-contenedor" style="border:1px solid #000000">
+    <!-- Acá van tus imágenes -->
+    <img id="img1" src="assets/images/image1.jpg" style="width:100%" alt="">
+    <img id="img2" src="assets/images/image2.jpg" style="width:100%" alt="">
+    <img id="img3" src="assets/images/image3.jpg" style="width:100%" alt="">
+</div>
+<br>
+<!-- FIN REDIMENSION IMAGEN -->
+    <!-- Scripts -->
 
-	 	<div>
-	 		 <img class="small"  src="assest/img/image1.jpg" alt=""> <!--la class llama a value-->
-	 	</div>
-	 	<div>
-	 		 <img class="mediun" src="assest/img/image1.jpg" alt="">
-	 	</div>
-	 	<div>
-	 		 <img class="large" src="assest/img/image1.jpg" alt="">
-	 	</div>
-	 
-
-	   
-	
-	    
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="assest/js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
