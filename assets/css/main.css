@@ -1,7 +1,7 @@
 body {
 
 font-family: 'Oxygen', sans-serif;
-	
+
 }
 .body-container {
 	background-color: #CDE9F4;
@@ -28,9 +28,7 @@ font-family: 'Oxygen', sans-serif;
 }
 #buttons {
 	text-align: center;
-	margin: 0 auto;
 }
-
 #img-contenedor {
 	padding: 1em;
 	align-content: center;
