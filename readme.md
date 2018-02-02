@@ -61,4 +61,4 @@ con esto creamos nuestro package.json
 
 
 
-*María José Barriga / Natalia Albornoz*
+*María José Barriga - Natalia Albornoz*
